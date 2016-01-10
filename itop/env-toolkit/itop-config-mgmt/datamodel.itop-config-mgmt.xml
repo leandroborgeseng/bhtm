@@ -2070,12 +2070,6 @@
             <item id="location_id">
               <rank>50</rank>
             </item>
-            <item id="rack_id">
-              <rank>60</rank>
-            </item>
-            <item id="enclosure_id">
-              <rank>70</rank>
-            </item>
             <item id="brand_id">
               <rank>80</rank>
             </item>
@@ -2303,12 +2297,6 @@
                     <item id="location_id">
                       <rank>50</rank>
                     </item>
-                    <item id="rack_id">
-                      <rank>60</rank>
-                    </item>
-                    <item id="enclosure_id">
-                      <rank>70</rank>
-                    </item>
                   </items>
                 </item>
                 <item id="fieldset:Server:moreinfo">
@@ -2358,20 +2346,6 @@
                       <rank>20</rank>
                     </item>
                     <item id="end_of_warranty">
-                      <rank>30</rank>
-                    </item>
-                  </items>
-                </item>
-                <item id="fieldset:Server:power">
-                  <rank>20</rank>
-                  <items>
-                    <item id="powerA_id">
-                      <rank>10</rank>
-                    </item>
-                    <item id="powerB_id">
-                      <rank>20</rank>
-                    </item>
-                    <item id="redundancy">
                       <rank>30</rank>
                     </item>
                   </items>
@@ -2604,12 +2578,6 @@
                     <item id="location_id">
                       <rank>50</rank>
                     </item>
-                    <item id="rack_id">
-                      <rank>60</rank>
-                    </item>
-                    <item id="enclosure_id">
-                      <rank>70</rank>
-                    </item>
                   </items>
                 </item>
                 <item id="fieldset:Server:moreinfo">
@@ -2620,12 +2588,6 @@
                     </item>
                     <item id="model_id">
                       <rank>20</rank>
-                    </item>
-                    <item id="osfamily_id">
-                      <rank>30</rank>
-                    </item>
-                    <item id="osversion_id">
-                      <rank>40</rank>
                     </item>
                     <item id="managementip">
                       <rank>45</rank>
@@ -2665,20 +2627,6 @@
                       <rank>20</rank>
                     </item>
                     <item id="end_of_warranty">
-                      <rank>30</rank>
-                    </item>
-                  </items>
-                </item>
-                <item id="fieldset:Server:power">
-                  <rank>20</rank>
-                  <items>
-                    <item id="powerA_id">
-                      <rank>10</rank>
-                    </item>
-                    <item id="powerB_id">
-                      <rank>20</rank>
-                    </item>
-                    <item id="redundancy">
                       <rank>30</rank>
                     </item>
                   </items>

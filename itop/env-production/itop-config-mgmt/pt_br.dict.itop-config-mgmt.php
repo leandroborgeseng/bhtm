@@ -441,7 +441,7 @@ Dict::Add('PT BR', 'Brazilian', 'Brazilian', array(
 Dict::Add('PT BR', 'Brazilian', 'Brazilian', array(
 	'Class:ConnectableCI' => 'Conectividades',
 	'Class:ConnectableCI+' => 'Físicos',
-	'Class:ConnectableCI/Attribute:networkdevice_list' => 'acessório',
+	'Class:ConnectableCI/Attribute:networkdevice_list' => 'Acessórios',
 	'Class:ConnectableCI/Attribute:networkdevice_list+' => 'Todos os dispositivos de rede conectados nesse dispositivo',
 	'Class:ConnectableCI/Attribute:physicalinterface_list' => 'Interface de rede',
 	'Class:ConnectableCI/Attribute:physicalinterface_list+' => 'Todas as interfaces de rede',
@@ -485,14 +485,14 @@ Dict::Add('PT BR', 'Brazilian', 'Brazilian', array(
 //
 
 Dict::Add('PT BR', 'Brazilian', 'Brazilian', array(
-	'Class:NetworkDevice' => 'Acessório',
+	'Class:NetworkDevice' => 'Acessórios',
 	'Class:NetworkDevice+' => '',
 	'Class:NetworkDevice/Attribute:networkdevicetype_id' => 'Tipo rede',
 	'Class:NetworkDevice/Attribute:networkdevicetype_id+' => '',
 	'Class:NetworkDevice/Attribute:networkdevicetype_name' => 'Nome tipo rede',
 	'Class:NetworkDevice/Attribute:networkdevicetype_name+' => '',
 	'Class:NetworkDevice/Attribute:connectablecis_list' => 'Dispositivos',
-	'Class:NetworkDevice/Attribute:connectablecis_list+' => 'Todos os dispositivos vinculados para esse acessório',
+	'Class:NetworkDevice/Attribute:connectablecis_list+' => 'Todos os dispositivos vinculados para esse Acessórios',
 	'Class:NetworkDevice/Attribute:iosversion_id' => 'Versão IOS',
 	'Class:NetworkDevice/Attribute:iosversion_id+' => '',
 	'Class:NetworkDevice/Attribute:iosversion_name' => 'Nome versão IOS',
@@ -1300,8 +1300,8 @@ Dict::Add('PT BR', 'Brazilian', 'Brazilian', array(
 	'Class:Model/Attribute:type/Value:MobilePhone+' => 'Telefone celular',
 	'Class:Model/Attribute:type/Value:NAS' => 'NAS',
 	'Class:Model/Attribute:type/Value:NAS+' => 'NAS',
-	'Class:Model/Attribute:type/Value:NetworkDevice' => 'Acessório',
-	'Class:Model/Attribute:type/Value:NetworkDevice+' => 'Acessório',
+	'Class:Model/Attribute:type/Value:NetworkDevice' => 'Acessórios',
+	'Class:Model/Attribute:type/Value:NetworkDevice+' => 'Acessórios',
 	'Class:Model/Attribute:type/Value:PC' => 'PC',
 	'Class:Model/Attribute:type/Value:PC+' => 'PC',
 	'Class:Model/Attribute:type/Value:PDU' => 'PDU',
@@ -1333,10 +1333,10 @@ Dict::Add('PT BR', 'Brazilian', 'Brazilian', array(
 //
 
 Dict::Add('PT BR', 'Brazilian', 'Brazilian', array(
-	'Class:NetworkDeviceType' => 'Tipo Acessório',
+	'Class:NetworkDeviceType' => 'Tipo Acessórios',
 	'Class:NetworkDeviceType+' => '',
-	'Class:NetworkDeviceType/Attribute:networkdevicesdevices_list' => 'Acessório',
-	'Class:NetworkDeviceType/Attribute:networkdevicesdevices_list+' => 'Todos os acessório correspondentes a esse tipo',
+	'Class:NetworkDeviceType/Attribute:networkdevicesdevices_list' => 'Acessórios',
+	'Class:NetworkDeviceType/Attribute:networkdevicesdevices_list+' => 'Todos os Acessórios correspondentes a esse tipo',
 ));
 
 //
@@ -1628,9 +1628,9 @@ Dict::Add('PT BR', 'Brazilian', 'Brazilian', array(
 Dict::Add('PT BR', 'Brazilian', 'Brazilian', array(
 	'Class:lnkConnectableCIToNetworkDevice' => 'Link ConnectableCI / NetworkDevice',
 	'Class:lnkConnectableCIToNetworkDevice+' => '',
-	'Class:lnkConnectableCIToNetworkDevice/Attribute:networkdevice_id' => 'Acessório',
+	'Class:lnkConnectableCIToNetworkDevice/Attribute:networkdevice_id' => 'Acessórios',
 	'Class:lnkConnectableCIToNetworkDevice/Attribute:networkdevice_id+' => '',
-	'Class:lnkConnectableCIToNetworkDevice/Attribute:networkdevice_name' => 'Nome Acessório',
+	'Class:lnkConnectableCIToNetworkDevice/Attribute:networkdevice_name' => 'Nome Acessórios',
 	'Class:lnkConnectableCIToNetworkDevice/Attribute:networkdevice_name+' => '',
 	'Class:lnkConnectableCIToNetworkDevice/Attribute:connectableci_id' => 'Dispositivo conectado',
 	'Class:lnkConnectableCIToNetworkDevice/Attribute:connectableci_id+' => '',
